@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nemo-fscheck 0.3-1\n"
+"Report-Msgid-Bugs-To: Discreete Linux Team <info@discreete-linux.org>\n"
+"POT-Creation-Date: 2016-08-02 15:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: nemo-fscheck.py:46
+msgid "Check"
+msgstr ""
+
+#: nemo-fscheck.py:52
+msgid ""
+"Here you can check the filesystem on this device for errors and repair them"
+msgstr ""
+
+#: nemo-fscheck.py:54
+msgid "Check Filesystem"
+msgstr ""
+
+#: nemo-fscheck.py:92
+msgid ""
+"WARNING: This enables repair actions which may further corrupt the "
+"filesystem if something goes wrong."
+msgstr ""
+
+#: nemo-fscheck.py:95
+msgid ""
+"WARNING: This will open a terminal where you can continue the repair process "
+"yourself. Be sure you know what you are doing."
+msgstr ""
+
+#: nemo-fscheck.py:105
+msgid ""
+"There are still open files on this volume.\n"
+"Please close them and try again!"
+msgstr ""
+
+#: nemo-fscheck.py:112
+msgid ""
+"You are about to check and repair a filesystem. Even though this works in "
+"most cases, it is advisable to have a backup in case something goes wrong. "
+"Do you want to continue?"
+msgstr ""
+
+#: nemo-fscheck.py:119
+msgid "Normal"
+msgstr ""
+
+#: nemo-fscheck.py:120
+msgid "Force dangerous repairs"
+msgstr ""
+
+#: nemo-fscheck.py:121
+msgid "Interactive repair"
+msgstr ""
+
+#: nemo-fscheck.py:123
+msgid "Mode of operation:"
+msgstr ""
+
+#: nemo-fscheck.py:147
+msgid "Could not unmount volume"
+msgstr ""
+
+#: nemo-fscheck.py:158 nemo-fscheck.py:160
+msgid "Filesystem check"
+msgstr ""
+
+#: nemo-fscheck.py:158
+msgid "Press any key to continue"
+msgstr ""
+
+#: nemo-fscheck.py:162
+#, python-format
+msgid "Checking filesystem on %s..."
+msgstr ""
+
+#: nemo-fscheck.py:162
+#, python-format
+msgid ""
+"The filesystem on %s is being checked and, if neccessary, repaired.\n"
+"This may take a while, please be patient."
+msgstr ""
+
+#: nemo-fscheck.py:165
+msgid "No errors were found during this check."
+msgstr ""
+
+#: nemo-fscheck.py:167
+msgid "Errors were found and repaired during this check."
+msgstr ""
+
+#: nemo-fscheck.py:169
+msgid ""
+"For some reason, filesystem check was not successful or did not complete."
+msgstr ""
+
+#: nemo-fscheck.py:175
+msgid "Could not remount volume"
+msgstr ""

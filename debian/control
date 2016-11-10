@@ -1,0 +1,16 @@
+Source: nemo-fscheck
+Section: utils
+Priority: extra
+Maintainer: Discreete Linux Team <info@discreete-linux.org>
+Build-Depends: debhelper (>= 9), dh-python
+Standards-Version: 3.9.5
+Homepage: https://www.discreete-linux.org
+
+Package: nemo-fscheck
+Architecture: all
+Depends: ${misc:Depends}, nemo-python, lsof, dosfstools
+Recommends: ntfs-3g
+Suggests: exfat-utils
+Description: Check filesystems within nemo
+ This is a nemo extension which adds a property page to volumes which
+ allows doing a filesystem check on them.

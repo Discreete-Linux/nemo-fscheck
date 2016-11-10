@@ -1,0 +1,5 @@
+%users ALL=(ALL) NOPASSWD: /sbin/fsck -f -a *
+%users ALL=(ALL) NOPASSWD: /sbin/fsck -f -y *
+%users ALL=(ALL) NOPASSWD: /usr/bin/lsof -w /media/*
+%users ALL=(ALL) NOPASSWD: /sbin/dosfsck -wr *
+%users ALL=(ALL) NOPASSWD: /sbin/blkid -c /dev/null -s TYPE -o value *

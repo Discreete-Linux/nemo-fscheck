@@ -1,0 +1,17 @@
+nemo-fscheck (0.3) jessie; urgency=low
+
+  * Ported to Nemo
+
+ -- Discreete Linux Team <info@discreete-linux.org>  Tue, 02 Aug 2016 12:09:29 +0100
+ 
+nautilus-fscheck (0.2-1) precise; urgency=low
+
+  * Ported to GTK3
+
+ -- UPR Team <info@privacy-cd.org>  Tue, 23 Apr 2013 12:09:29 +0100
+ 
+nautilus-fscheck (0.1-1) lucid; urgency=low
+
+  * Initial release
+
+ -- UPR Team <info@privacy-cd.org>  Wed, 14 Nov 2012 12:09:29 +0100

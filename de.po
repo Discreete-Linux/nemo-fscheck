@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-fscheck 0.1-1\n"
+"Report-Msgid-Bugs-To: Discreete Linux Team <info@discreete-linux.org>\n"
+"POT-Creation-Date: 2016-08-02 15:21+0200\n"
+"PO-Revision-Date: 2016-08-02 15:23+0100\n"
+"Last-Translator: Discreete Linux Team <info@discreete-linux.org>\n"
+"Language-Team: LANGUAGE <DE@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: nemo-fscheck.py:46
+msgid "Check"
+msgstr "Prüfen"
+
+#: nemo-fscheck.py:52
+msgid ""
+"Here you can check the filesystem on this device for errors and repair them"
+msgstr "Hier können Sie das Dateisystem auf diesem Gerät prüfen und reparieren"
+
+#: nemo-fscheck.py:54
+msgid "Check Filesystem"
+msgstr "Prüfe Dateisystem"
+
+#: nemo-fscheck.py:92
+msgid ""
+"WARNING: This enables repair actions which may further corrupt the "
+"filesystem if something goes wrong."
+msgstr ""
+"ACHTUNG: Dies aktiviert Reparaturen, die das Dateisystem im Falle eines "
+"Fehlschlags weiter beschädigen können"
+
+#: nemo-fscheck.py:95
+msgid ""
+"WARNING: This will open a terminal where you can continue the repair process "
+"yourself. Be sure you know what you are doing."
+msgstr ""
+"ACHTUNG: Dies öffnet ein Terminal, in dem Sie den Reparaturprozess manuell "
+"fortführen können. Sie sollten wissen, was Sie tun."
+
+#: nemo-fscheck.py:105
+msgid ""
+"There are still open files on this volume.\n"
+"Please close them and try again!"
+msgstr ""
+"Es sind noch Dateien auf diesem Volume offen.\n"
+"Bitte schließen und erneut versuchen!"
+
+#: nemo-fscheck.py:112
+msgid ""
+"You are about to check and repair a filesystem. Even though this works in "
+"most cases, it is advisable to have a backup in case something goes wrong. "
+"Do you want to continue?"
+msgstr ""
+"Sie sind dabei, ein Dateisystem zu prüfen und zu reparieren. Auch wenn dies "
+"in den meisten Fällen gelingt, sollten sie vorher eine Sicherung angefertigt "
+"haben. Wollen Sie fortfahren?"
+
+#: nemo-fscheck.py:119
+msgid "Normal"
+msgstr "Normal"
+
+#: nemo-fscheck.py:120
+msgid "Force dangerous repairs"
+msgstr "Unsichere Reparaturen durchführen"
+
+#: nemo-fscheck.py:121
+msgid "Interactive repair"
+msgstr "Interaktive Reparatur"
+
+#: nemo-fscheck.py:123
+msgid "Mode of operation:"
+msgstr "Reparatur-Modus:"
+
+#: nemo-fscheck.py:147
+msgid "Could not unmount volume"
+msgstr "Konnto Volume nicht aushängen"
+
+#: nemo-fscheck.py:158 nemo-fscheck.py:160
+msgid "Filesystem check"
+msgstr "Dateisystemprüfung"
+
+#: nemo-fscheck.py:158
+msgid "Press any key to continue"
+msgstr "Taste drücken zum Fortsetzen"
+
+#: nemo-fscheck.py:162
+#, python-format
+msgid "Checking filesystem on %s..."
+msgstr "Prüfe Dateisystem auf %s..."
+
+#: nemo-fscheck.py:162
+#, python-format
+msgid ""
+"The filesystem on %s is being checked and, if neccessary, repaired.\n"
+"This may take a while, please be patient."
+msgstr ""
+"Das Dateisystem auf %s wird geprüft und, falls notwendig, repariert.\n"
+"Das kann eine Weile dauern, bitte Geduld."
+
+#: nemo-fscheck.py:165
+msgid "No errors were found during this check."
+msgstr "Es wurden keine Fehler bei dieser Prüfung gefunden"
+
+#: nemo-fscheck.py:167
+msgid "Errors were found and repaired during this check."
+msgstr "Es wurden Fehler gefunden und repariert."
+
+#: nemo-fscheck.py:169
+msgid ""
+"For some reason, filesystem check was not successful or did not complete."
+msgstr ""
+"Aus unbekannten Gründen war die Prüfung nicht erfolgreich oder konnte nicht "
+"abgeschlossen werden."
+
+#: nemo-fscheck.py:175
+msgid "Could not remount volume"
+msgstr "Konnte Volume nicht wieder einhängen"
